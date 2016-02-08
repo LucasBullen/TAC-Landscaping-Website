@@ -1,0 +1,689 @@
+body{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	color: #D0D0D0;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	min-height: 800px;
+	background-image: url("images/stoneTile.jpg");
+	overflow: scroll;
+}
+.vertCenter{
+	display: table-cell; 
+  	vertical-align: middle; 
+  	text-align: center; 
+}
+/*
+*CLASSES
+*/
+
+.title{
+	text-align: center;
+	padding-top: 20px;
+	font-weight:800; 
+	color: #F5FFFA;
+	font-size: 24px;
+}
+.text{
+	text-align: center;
+  	font-weight: 300;
+	font-size: 13px;
+	padding: 10px;
+	padding-top: 30px;
+}
+li{
+	font-weight: 300;
+	font-size: 13px;
+}
+.servicesText{
+	margin-left: 10px;
+	font-weight: 300;
+	font-size: 13px;
+}
+.links{
+	color: inherit;
+	text-decoration: none;
+}
+
+/*
+*BACKGROUND SECTION
+*/
+#back_header{
+	position: absolute;
+	width:100%;
+	min-width: 1000px;
+	height: 170px;
+}
+#back_content{
+	top:170px;
+	position: absolute;
+	width:100%;
+	min-width: 1000px;
+	height: 600px;
+	background-image: url("images/flowerTileLight.png");
+}
+/*
+*HEADER SECTION
+*/
+#header{
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+	width:1000px;
+	height:170px;
+}
+	/*
+	*HEADER TOP SECTION
+	*/
+#header_top{
+	position: relative;
+	width: 100%;
+	height: 130px;
+}
+#header_top_logo{
+	position: relative;
+	width:300px;
+	height: 115px;
+	top:10px;
+	background-image: url("images/tacLogo.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+#header_top_contact{
+	text-align: right;
+	position: absolute;
+	right:10px;
+	width:300px;
+	height: 115px;
+	top:15px;
+	color: rgba(0,110,0,1);
+}
+.up{
+	position: relative;
+	top:-25px;
+}
+#top_1{
+	font-size: 28px;
+	font-weight: 900;
+}
+#top_3{
+	position: relative;
+	top:-5px;
+}
+#top_4{
+	font-size: 26px;
+	font-weight: 800;
+	font-style:italic;
+	position: relative;
+	top:-10px; 
+}
+	/*
+	*HEADER BOTTOM SECTION
+	*/
+#header_bottom{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	margin-top: 5px;
+	height: 36px;
+	background-color: rgba(0,100,0,1);
+	box-shadow: 15px 15px 10px rgba(50, 50, 50, 0.5);
+	border-radius: 10px 10px 0 0;
+}
+.tab{
+	display: inline-block;
+    position: relative;
+    left: 0;
+    vertical-align:top;
+	text-align: center;
+	color: #F5FFFA;
+	font-size: 20px;
+	line-height: 38px;
+	height:100%;
+	width:158px;
+	font-weight: lighter;
+	text-decoration: none;
+}
+.tab:hover{
+	background-color: rgba(0,110,0,1);
+}
+/*
+*CONTENT SECTION
+*/
+
+/*
+*
+*HOME PAGE
+*
+*/
+#content{
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+	width:1000px;
+	min-height:600px; 
+	background-color: rgba(0,110,0,1);
+	border-radius: 0 0 10px 10px;
+	box-shadow: 15px 15px 10px rgba(50, 50, 50, 0.5);
+}
+#content_left{
+	display: inline-block;
+    position: relative;
+	left:25px;
+	top:25px;
+	width:694px;
+	height:550px;
+}
+#content_left_top{
+    position: relative;
+	width:100%;
+	height:184px; 
+	font-size: 18px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+#content_left_bottom{
+	position: relative;
+	width:100%;
+	height:339px;
+	margin-top: 25px;
+}
+#content_left_bottom_leftImage{
+	display: inline-block;
+    position: relative;
+	width:339px;
+	height:339px;
+	background-image: url("images/mainArrowBefore.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+}
+#slider{
+    border-radius: 10px 10px 10px 10px;
+}
+#content_left_bottom_rightImage{
+	display: inline-block;
+    position: relative;
+    left:15px;
+	width:339px;
+	top:-90px;
+}
+#content_left_bottom_top{
+}
+#content_left_bottom_bottom{
+}
+#content_left_bottom_top_left{
+	display: inline-block;
+	position: relative;
+	height:157px;
+	width:157px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	top:57px;
+}
+#content_left_bottom_top_right{
+	display: inline-block;
+	position: relative;
+	height:157px;
+	width:157px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	left:15px;
+	top:57px;
+}
+#content_left_bottom_bottom_left{
+	display: inline-block;
+	position: relative;
+	height:157px;
+	width:157px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	top:63px;
+}
+#content_left_bottom_bottom_right{
+	display: inline-block;
+	position: relative;
+	height:157px;
+	width:157px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	left:15px;
+	top:82px;
+}
+.content_service_title{
+	position: relative;
+	text-align: center;
+	padding-top: 20px;
+	font-weight:700; 
+	color: #F5FFFA;
+	top:-10px;
+}
+.content_service_text{
+	position: relative;
+	top:-35px;
+}
+#content_right{
+    position: absolute;
+	right:25px;
+	top:25px;
+	width:231px;
+	height:550px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+.content_service_button{
+	position: absolute;
+	top:125px;
+	left:16px;
+	width:125px;
+	text-align: center;
+	color: #F5FFFA;
+	background-color: rgba(0,110,0,1);
+	border-radius: 10px 10px 10px 10px;
+	text-decoration: none;
+}
+#right_image_1{
+	display: inline-block;
+    position: relative;
+	width:210px;
+	height:210px;
+	background-image: url("images/flowersSquare.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+    left:10px;
+}
+#right_text_number{
+	display: inline-block;
+	position: relative;
+	height:70px;
+	width:231px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	z-index: 0;
+	text-align: center;
+	font-weight:900; 
+	color: #F5FFFA;
+	font-size: 24px;
+	line-height: 350%;
+	top:-10px;
+}
+/*
+*
+*PROFILE
+*
+*/
+#content_profile{
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+	width:1000px;
+	height:600px; 
+	background-color: rgba(0,110,0,1);
+	border-radius: 0 0 10px 10px;
+	box-shadow: 15px 15px 10px rgba(50, 50, 50, 0.5);
+}
+#profile_content_leftImage{
+    position: absolute;
+	left:25px;
+	top:25px;
+	width:550px;
+	height:550px; 
+	background-image: url("images/flowers.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#profile_content_rightText{
+	display: inline-block;
+    position: relative;
+	left:600px;
+	top:25px;
+	width:375px;
+	height:550px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+
+
+/*
+*
+*Services
+*
+*/
+#content_services{
+	position: relative;
+	margin-left: auto;
+    margin-right: auto;
+	width:1000px;
+	height:600px; 
+	background-color: rgba(0,110,0,1);
+	border-radius: 0 0 10px 10px;
+	box-shadow: 15px 15px 10px rgba(50, 50, 50, 0.5);
+}
+#services_content_leftImage{
+	display: inline-block;
+    position: absolute;
+	left:25px;
+	top:25px;
+	width:550px;
+	height:550px; 
+	background-image: url("images/wood.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#services_content_rightText{
+	display: inline-block;
+    position: relative;
+	left:600px;
+	top:25px;
+	width:375px;
+	height:550px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+
+/*
+*
+*PORTFOLIO
+*
+*/
+#portfolio_topBlurb{
+    position: relative;
+	left:25px;
+	top:25px;
+	width:930px;
+	height:45px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+#prt_top_title{
+	line-height: 100%
+}
+.portfolio_holder{
+	margin-bottom:  25px;
+	text-align: center;
+}
+.portfolio_personHolder{
+	display: inline-block;
+	position: relative;
+	left:100px;
+	margin-top: 50px;
+	width:800px;
+	height:325px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+.portfolio_picture{
+	position: absolute;
+	left:25px;
+	top:25px;
+	width:275px;
+	height:275px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.portfolio_text{
+	position: absolute;
+	right:25px;
+	top:25px;
+	width:450px;
+	height:275px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+.portfolio_text_yScroll{
+	overflow: scroll;
+	overflow-x: hidden;
+}
+/*
+#portfolio_image{
+    position: absolute;
+	left:125px;
+	top:225px;
+	width:275px;
+	height:275px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+#portfolio_text{
+    position: absolute;
+	right:125px;
+	top:225px;
+	width:450px;
+	height:275px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+#portfolio_right_button{
+    position: absolute;
+	right:25px;
+	top:300px;
+	width:100px;
+	height:100px; 
+	background-image: url("images/arrowRight.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+/*
+*
+*OUR TEAM
+*
+*/
+#ourTeam_topBlurb{
+    position: relative;
+	left:25px;
+	top:25px;
+	width:930px;
+	height:120px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+#ourTeam_top_title{
+	line-height: 100%
+}
+.ourTeam_holder{
+	margin-bottom:  25px;
+}
+.ourTeam_personHolder{
+	display: inline-block;
+	position: relative;
+	left:37px;
+	margin-top: 50px;
+	width:930px;
+	height:600px;
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+.ourTeam_picture{
+	display: inline-block;
+	position: absolute;
+	left:75px;
+	top:25px;
+	width:275px;
+	height:275px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+.ourTeam_textHolder{
+    position: absolute;
+	width: 580px;
+	height:275px;
+	left:375px;
+	top: 75px;
+}
+.ourTeam_name{
+	padding-top: 20px;
+	font-weight:800; 
+	color: #F5FFFA;
+	font-size: 24px;
+}
+.ourTeam_position{
+	font-weight:800;
+	font-size: 20px;
+}
+.ourTeam_email{
+	font-weight:800;
+	font-size: 20px;
+}
+.ourTeam_text{
+	position: absolute;
+    padding: 10px;
+	left:25px;
+	top:325px;
+	width:880px;
+	height:230px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+
+/*
+#ourTeam_left_button{
+    position: absolute;
+	left:25px;
+	top:300px;
+	width:100px;
+	height:100px;
+	background-image: url("images/arrowLeft.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+#ourTeam_image{
+    position: absolute;
+	left:125px;
+	top:225px;
+	width:275px;
+	height:275px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+#ourTeam_text{
+    position: absolute;
+    padding: 10px;
+	right:125px;
+	top:225px;
+	width:450px;
+	height:255px; 
+	background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+#ourTeam_right_button{
+    position: absolute;
+	right:25px;
+	top:300px;
+	width:100px;
+	height:100px; 
+	background-image: url("images/arrowRight.png");
+	background-size: cover;
+    background-repeat: no-repeat;
+}
+*/
+/*
+*
+*CONTACT US
+*
+*/
+#contact_top{
+	display: inline-block;
+    position: relative;
+	width: 100%;
+	height:300px;
+}
+#contact_top_leftImage{
+	display: inline-block;
+    position: relative;
+	left:25px;
+	top:25px;
+	width:300px;
+	height:300px; 
+	background-image: url("images/flowers.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+}
+#contact_top_centerText{
+	left:45px;
+	top:-33px;
+	display: inline-block;
+    position: relative;
+    width:275px;
+    height:265px;
+    background-color: rgba(0,100,0,1);
+	border-radius: 10px 10px 10px 10px;
+}
+#contact_top_rightImage{
+	display: inline-block;
+    position: relative;
+	left:65px;
+	top:25px;
+	width:300px;
+	height:300px; 
+	background-image: url("images/kfc.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+}
+#contact_bottom{
+	width: 100%;
+	height:225px;
+}
+#contact_bottom_leftImage{
+	display: inline-block;
+    position: relative;
+	left:25px;
+	top:45px;
+	width:462px;
+	height:225px; 
+	background-image: url("images/wood.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+}
+#contact_bottom_rightImage{
+	display: inline-block;
+    position: relative;
+	left:45px;
+	top:45px;
+	width:462px;
+	height:225px; 
+	background-image: url("images/stone.jpg");
+	background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
